@@ -1,0 +1,32 @@
+.ui-btn-right{
+				background-color: #333333;
+				text-align: center;
+			}
+			#calendar-list{
+				padding: 10px;
+			}
+			img{
+				width: 60px;
+			}
+			.description{
+				font-size: 10px;
+				color: gray;
+			}
+			#footer{
+				color: gray;
+			}
+			#orderSuccess{
+				position: absolute;
+				border: 1px solid #22AADD;
+				width: 200px;
+				border-radius: 10px;
+				background-color: #22AADD;
+				color: darkred;
+				height: 20px;
+				top: 15%;
+				left: 50%;
+				margin:0 0 0 -100px;
+				display: none;
+				text-align: center;
+				
+			}

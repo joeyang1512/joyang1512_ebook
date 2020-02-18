@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<title></title>
+		<!-- 引入 jQuery Mobile 样式 -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		
+		<!-- 引入 jQuery 库 -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		
+		<!-- 引入 jQuery Mobile 库 -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<style>
+			*{
+				padding: 0px;
+				margin: 0px;
+			}
+			img{
+				width: 60px;
+				height: 80px;
+				border-radius:10px ;
+			}
+			.dv{
+				margin: 10px 0;
+				display: inline-block;
+				width: 45%;
+				height: 80px;
+				position: relative;
+			}
+			.txt{
+				display: inline-block;
+				position: absolute;
+				line-height: 80px;
+				height: 80px;
+				width: 60px;
+				text-align: center;
+			}
+			.imgs{
+				display: inline-block;
+				
+			}
+			#content{
+				padding: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="content">
+			<div class="dv">
+				<div class="imgs"><img src="../img/xianyan.jpg"></div><div class="txt">现言</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/yunvjinjing.jpg"></div><div class="txt">古言</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/xiaoshideairen.jpg"></div><div class="txt">幻想</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/qingchun.jpg"></div><div class="txt">青春</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/heli.jpg"></div><div class="txt">同人</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/tuili.jpg"></div><div class="txt">推理</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/xuanyi.jpg"></div><div class="txt">悬疑</div>
+			</div>
+			<div class="dv">
+				<div class="imgs"><img src="../img/jiuzhoutianjiao.jpg"></div><div class="txt">次元</div>
+			</div>
+			
+		</div>
+		<script type="text/javascript">
+			var dvs = document.querySelectorAll(".dv");
+			for (var i = 0; i < dvs.length; i++) {
+				dvs[i].onclick = changeSrc;
+			}
+			function changeSrc(){
+				window.location.href = "xuanhuan.html";
+			}
+		</script>
+	</body>
+</html>

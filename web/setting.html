@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<title></title>
+		<!-- 引入 jQuery Mobile 样式 -->
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		
+		<!-- 引入 jQuery 库 -->
+		<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+		
+		<!-- 引入 jQuery Mobile 库 -->
+		<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<script src="../js/setting.js" type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" type="text/css" href="../css/setting.css"/>
+	</head>
+	<body>
+		<div data-role="page" id="page1">
+			<div data-role="header" data-theme="a" data-position="fixed">
+				<h1 >我的</h1>	
+			</div>
+			<div data-role="content">
+				<div id="dv">
+					<div id="info"> <img src="../img/dongjingcanzhong.jpg" > <span id="userName">杨旭</span><span id="vip">未开通VIP</span></div>
+					<div id="activity">
+						<div id="activityNum"><span class="yuebing">4</span><span class="daijinjuan">0</span></div>
+						<div id="activityName"><span class="yuebing">阅饼</span><span class="daijinjuan" >代金奍</span></div>
+					</div>
+				</div>
+				<ul data-role="listview" id="list">
+					<li>
+						<a href="#"><img src="../img/174601.png" data-iconpos="notext" class="ui-li-icon">基本资料修改</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/2.gif" class="ui-li-icon">充值</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/3.png" class="ui-li-icon">我的月包</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/1.gif" class="ui-li-icon">我的卡奍</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/4.gif" class="ui-li-icon">我的书籍</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/5.gif" class="ui-li-icon">问题与建议</a>
+					</li>
+					<li>
+						<a href="#"><img src="../img/6.gif" class="ui-li-icon">关于</a>
+					</li>
+				</ul>
+			</div>
+			<div id="orderSuccess">
+				兑换成功
+			</div>
+			<div data-role="footer" data-position="fixed" class="ui-footer-fixed">
+					<div data-role="navbar" id="footer">
+						<ul>
+						  <li><a href="../index.html" rel="external" data-icon="heart" data-iconpos="top">书架</a></li>
+						  <li><a href="bookCity.html" rel="external" data-icon="home" data-iconpos="top">书城</a></li>
+						  <li><a href="type.html" rel="external" data-icon="grid" data-iconpos="top">分类</a></li>
+						  <li><a href="setting.html" rel="external" class="ui-btn-active ui-state-persist"   data-icon="user" data-iconpos="top">我的</a></li>
+						</ul>
+					</div>
+				</div>
+			
+		</div>
+	</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>书城</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!-- 引入 jQuery Mobile 样式 -->
+		<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+		<!-- 引入 jQuery 库 -->
+		<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+		<!-- 引入 jQuery Mobile 库 -->
+		<script src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/bookCity.css"/>
+	</head>
+	<body>
+		<div data-role="page" id="page1">
+			<div data-role="header" data-theme="a" data-position="fixed">
+				
+				<h1 >书城</h1>	
+			</div>
+			
+			<div data-role="content">
+				
+				<ul data-role="listview" data-position="fixed" id="calendar-list" data-filter="true" data-filter-placeholder="搜索书名或关键字">
+					
+				</ul>	
+														
+					<div id="paihangbang">
+						<span class="btn1"  id="resou" style="background-color: #3388CC;">热搜榜</span>									  				    
+						<span class="btn1"  id="shangsheng">上升榜</span>									 				    
+						<span class="btn1"  id="shoucang">收藏榜</span>									 				    
+						<span class="btn1"  id="wanjie">完结榜</span>									 				    
+						<span class="btn1" id="jingdian">经典榜</span>					
+					</div>
+																																																			
+				<div id="neirong" style="position: fixed;top: 150px;bottom: 80px;right: 0px;">					
+					<div id="iframeCon">
+						<iframe src="resou.html" id="content" border="0" frameborder="no"></iframe>
+					</div>	
+				</div>								
+			</div>
+			<div data-role="footer" data-position="fixed" class="ui-footer-fixed">
+				<div data-role="navbar" id="footer">
+					<ul>
+					  <li><a href="../index.html" rel="external" data-icon="heart" data-iconpos="top">书架</a></li>
+					  <li><a href="bookCity.html" rel="external"  class="ui-btn-active ui-state-persist"  data-icon="home" data-iconpos="top">书城</a></li>
+					  <li><a href="type.html" rel="external" data-icon="grid" data-iconpos="top">分类</a></li>
+					  <li><a href="setting.html" rel="external" data-icon="user" data-iconpos="top">我的</a></li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		<script src="../js/bookCity.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>
