@@ -54,3 +54,9 @@
 				line-height: 40px;
 				margin-top: 13px;
 			}
+			#footer1{
+				position: fixed;
+				bottom: 0;
+				left: 0;
+				right: 0;
+			}
